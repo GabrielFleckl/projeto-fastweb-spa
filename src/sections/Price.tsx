@@ -8,7 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 const mockCard = [
   {
     title: "Start",
-    mbps: "500",
+    mbps: "200",
     price: "119,90",
     list: [
       "3 user request",
@@ -22,7 +22,7 @@ const mockCard = [
   },
   {
     title: "Plus",
-    mbps: "500",
+    mbps: "300",
     price: "119,90",
     list: [
       "3 user request",
