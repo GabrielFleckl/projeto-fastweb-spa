@@ -76,11 +76,11 @@ function Price() {
 
         <Tabs defaultValue="client">
           <TabsList className="m-auto flex max-w-80 items-center justify-center bg-transparent backdrop-blur-sm">
-            <TabsTrigger className="text-lg" value="client">
+            <TabsTrigger className="text-lg hover:underline" value="client">
               Para você
             </TabsTrigger>
             <TabsTrigger
-              className="text-lg data-[state=active]:bg-blue-500"
+              className="text-lg hover:underline data-[state=active]:bg-blue-500"
               value="Enterprise"
             >
               Para sua empresa

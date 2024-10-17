@@ -3,12 +3,12 @@ import SubNavbar from "@/components/SubNavbar/Index";
 import Landing from "@/sections/Landing";
 import Services from "@/sections/Services";
 import Price from "@/sections/Price";
-import Partners from "@/sections/Partners";
 import Reviews from "@/sections/Reviews";
 import MobileApp from "@/sections/MobileApp";
 
 import FlickeringGrid from "@/components/ui/flickering-grid";
 import Footer from "@/components/Footer/Index";
+import FAQ from "@/sections/FAQ";
 
 function AppRoutes() {
   const screenWidth = window.innerWidth;
@@ -33,9 +33,10 @@ function AppRoutes() {
       <Landing />
       <Services />
       <Price />
-      <Partners />
-      <Reviews />
+      
+      <FAQ/>
       <MobileApp />
+      <Reviews />
       <Footer/>
 
     </main>
