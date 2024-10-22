@@ -21,7 +21,7 @@ export function Orbit() {
         duration={25}
         delay={5}
         radius={100}
-        fill="#16A34A"
+        fill="#16a34a90"
         stroke="6px"
       >
         <FaWhatsapp className="rounded-full bg-foreground p-[5px] text-5xl text-primary" />

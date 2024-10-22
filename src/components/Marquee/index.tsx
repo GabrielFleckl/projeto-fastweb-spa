@@ -91,8 +91,8 @@ function MarqueeReviews() {
           <ReviewCard key={review.username} {...review} />
         ))}
       </Marquee>
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-background dark:from-background"></div>
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-background dark:from-background"></div>
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-tertiary/80  dark:from-tertiary/80 "></div>
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-tertiary/80  dark:from-tertiary/80 "></div>
     </div>
   );
 }

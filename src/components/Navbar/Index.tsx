@@ -39,9 +39,6 @@ function Navbar() {
           <li className="cursor-pointer rounded px-2 py-1 transition-all duration-200 hover:text-primary">
             <a href="#services">Serviços</a>
           </li>
-          <li className="cursor-pointer rounded px-2 py-1 transition-all duration-200 hover:text-primary">
-            Speedtest
-          </li>
 
           <li className="cursor-pointer rounded px-2 py-1 transition-all duration-200 hover:text-primary">
             <Dialog>
@@ -123,11 +120,6 @@ function Navbar() {
                   </Link>
                 </li>
 
-                <li>
-                  <Link to={"/"} target="_blank">
-                    <Button className="w-full">Speedtest</Button>
-                  </Link>
-                </li>
                 <li>
                   <Dialog>
                     <DialogTrigger className="w-full">

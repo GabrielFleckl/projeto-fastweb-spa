@@ -22,9 +22,9 @@ function AppRoutes() {
         gridGap={15}
         color="#12823B"
         maxOpacity={0.3}
-        flickerChance={0.01}
-        width={screenWidth + 50}
-        height={screenHeight + 50}
+        flickerChance={0.02}
+        width={screenWidth + 100}
+        height={screenHeight + 100}
       />
 
       <SubNavbar />

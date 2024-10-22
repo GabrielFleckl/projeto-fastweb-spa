@@ -69,7 +69,7 @@ function CardPrice({
   return (
     <Card
       className={clsx(
-        `relative flex size-full min-w-[150px] flex-col items-start justify-center bg-[#1C1917] dark:bg-[#1C1917]/40 dark:backdrop-blur-sm`,
+        `relative flex size-full min-w-[150px] flex-col items-start justify-center bg-[#1C1917] transition-all duration-300 dark:bg-[#1C1917]/40 dark:backdrop-blur-sm  md:hover:scale-[1.04]`,
         popular && `h-[480px] border-2 border-primary/50 pt-5`,
       )}
     >

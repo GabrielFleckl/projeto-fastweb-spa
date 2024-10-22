@@ -65,7 +65,7 @@ function CardBusiness({
   return (
     <Card
       className={clsx(
-        `relative m-auto flex h-full w-full min-w-[150px] flex-col items-start justify-center border-2 border-blue-500 bg-[#1C1917] dark:bg-[#1C1917]/40 dark:backdrop-blur-sm md:w-3/4`,
+        `relative m-auto flex h-full w-full min-w-[150px] flex-col items-start justify-center border-2 border-blue-500 bg-[#1C1917] dark:bg-[#1C1917]/40 dark:backdrop-blur-sm `,
       )}
     >
       <CardHeader className="flex w-full flex-col gap-3">

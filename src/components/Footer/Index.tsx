@@ -116,7 +116,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className="bg-green-950 py-2 font-thin">
+      <div className="bg-primary/10 py-2 font-thin">
         <div className="m-auto flex w-3/4 justify-between text-center">
           <p>
             &copy; Copyright Gigaweb - {new Date().getFullYear()} | Todos os

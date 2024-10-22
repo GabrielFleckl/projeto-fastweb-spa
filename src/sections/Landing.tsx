@@ -5,9 +5,9 @@ import Container from "@/components/Container";
 function Landing() {
   return (
     <Container>
-      <main className="m-auto flex flex-col-reverse items-center justify-between py-4 md:flex-row lg:h-[80vh]">
+      <main className="m-auto flex h-[80vh] flex-col-reverse items-center justify-between py-4 md:h-auto md:flex-row lg:h-[80vh]">
         <div className="m-auto flex w-full flex-col gap-7 text-center md:text-left">
-          <h1 className="w-full text-3xl font-bold text-primary md:text-4xl lg:w-[90%] lg:text-4xl">
+          <h1 className="w-full text-3xl font-bold text-primary md:text-4xl lg:w-[95%] lg:text-4xl">
             Transforme Sua Navegação com a Internet Líder em Velocidade!
           </h1>
 
@@ -20,7 +20,7 @@ function Landing() {
           </Button>
         </div>
 
-        <div>
+        <div className="hidden md:block">
           <Orbit />
         </div>
       </main>

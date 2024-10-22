@@ -17,7 +17,7 @@ import {
 function Services() {
   return (
     <Container>
-      <section id="services" className="mb-20 mt-10 flex flex-col gap-2">
+      <section id="services" className="mb-32 md:mb-20 mt-10 flex flex-col gap-2">
         <div className="flex flex-col items-center justify-center gap-1">
           <Heading>SERVIÇOS</Heading>
         </div>
