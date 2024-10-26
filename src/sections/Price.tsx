@@ -46,7 +46,7 @@ const mockCard = [
     btnContent: "Contratar",
     btnURL: "https://www.google.com.br/",
     popular: false,
-  },
+  }
 ];
 
 const mockCardBusiness = [
