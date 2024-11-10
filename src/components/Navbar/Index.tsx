@@ -6,8 +6,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { GrMenu } from "react-icons/gr";
-
-import logo from "@/assets/logo.png";
+import { BsGlobeAmericas } from "react-icons/bs";
 
 import {
   Dialog,
@@ -26,11 +25,9 @@ function Navbar() {
       <section>
         <header className="m-auto mt-3 flex w-full items-center justify-between gap-1 px-8 py-4 lg:w-[85%] lg:px-1">
           <ul>
-            <img
-              src={logo}
-              className="w-full min-w-[130px] max-w-[170px] object-cover"
-              alt=""
-            />
+            <li className="flex items-center gap-3 text-4xl font-bold italic text-primary">
+              FASTWEB <BsGlobeAmericas />{" "}
+            </li>
           </ul>
 
           <ul className="hidden items-center justify-center rounded-lg bg-green-700/60 py-1 text-lg font-medium text-white backdrop-blur-sm dark:bg-primary/30 md:flex lg:gap-2 lg:px-5">
